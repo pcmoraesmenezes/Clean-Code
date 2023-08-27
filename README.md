@@ -24,4 +24,4 @@ A disciplina é necessária para aderir consistentemente às boas práticas de d
 
 Lembre-se de que escolher um nome para uma variável deve ser tão cuidadoso quanto escolher o nome do seu primeiro filho. A identação adequada também é um indicador estatístico de redução de erros e deve ser praticada para melhorar a legibilidade do código.
 
-Ao aplicar os princípios do 5S ao desenvolvimento de código, você estará construindo uma base sólida para um software de qualidade, fácil de manter e entender. Mantenha esses princípios em mente durante todo o ciclo de vida do desenvolvimento de software para colher os benefícios a longo prazo.
+
