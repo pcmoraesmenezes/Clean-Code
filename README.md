@@ -24,4 +24,28 @@ A disciplina é necessária para aderir consistentemente às boas práticas de d
 
 Lembre-se de que escolher um nome para uma variável deve ser tão cuidadoso quanto escolher o nome do seu primeiro filho. A identação adequada também é um indicador estatístico de redução de erros e deve ser praticada para melhorar a legibilidade do código.
 
+# Capítulo 1: A Importância do Código de Qualidade
+
+Um exemplo notável da década de 80 nos mostra como um aplicativo popular se deteriorou devido ao mau código. Inicialmente bem-sucedido, o aplicativo passou a ser instável devido a atualizações apressadas que resultaram em código ruim. À medida que novas funcionalidades foram incorporadas, a estrutura do código se degradou, levando à sua decadência. Escrever código de baixa qualidade tem efeitos devastadores a longo prazo, levando a problemas de estabilidade, necessidade de mais gerenciamento e eventual declínio da produtividade.
+
+A deterioração do código gera uma reação em cadeia. O aumento da complexidade exige mais gerentes, que por sua vez introduzem mais código ruim para atender a prazos apertados. Isso gera frustração, menor produtividade e, em última instância, a ineficiência generalizada. A solução muitas vezes é uma remodelagem liderada por uma "elite", mas frequentemente formada por novos membros, enquanto a equipe original sofre as consequências.
+
+Um código eficaz não contém duplicações e é uma medida de estabilidade e qualidade. A legibilidade é fundamental, pois a leitura do código é uma atividade constante. Simplificar o código para facilitar sua compreensão resulta em economia de tempo a longo prazo.
+
+# Capítulo 2: Princípios para Nomenclatura de Qualidade
+
+Criar nomes significativos é essencial para a clareza do código:
+
+- **Intenção Reveladora**: Nomes de variáveis, funções e classes devem explicar por que existem, o que fazem e como são usados. Evite comentários explicativos desnecessários; um bom nome deve falar por si só. Use nomes claros e evite constantes numéricas. Opte por variáveis com nomes explícitos para melhor compreensão.
+
+- **Evite Desinformação**: Evite nomes que escondam o propósito. Evite abreviações, termos confusos ou ambíguos. Evite usar "List" a menos que seja uma lista. Não use "L" ou "O" como nomes de variáveis, pois se confundem com "1" e "0".
+
+- **Distinções Claras**: Evite nomes semelhantes para coisas diferentes. Nomes como `getActiveAccount()`, `getActiveAccounts()`, `getActiveAccountInfo()` confundem. Escolha nomes distintos e claros.
+
+- **Pronunciabilidade**: Use nomes pronunciáveis e que façam sentido. Nomes como `genymdhms`, `modymdhs`, `pszqint` são ininteligíveis. Prefira `generationTimestamp`, `modificationTimestamp` e `recordId`.
+
+- **Procurabilidade**: Nomes devem ser fáceis de pesquisar. Evite usar letras únicas como `i` e `j` sem um contexto claro.
+
+- **Evite Codificação**: Evite inserir detalhes técnicos nos nomes, como Hungarian Notation.
+
 
