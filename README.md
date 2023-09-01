@@ -54,4 +54,4 @@ Criar nomes significativos é essencial para a clareza do código:
 
 - **Use Nomes Técnicos e Específicos**: Quando apropriado, use nomes técnicos e específicos, como nomes de algoritmos ou termos matemáticos, para melhor representar o propósito da variável, função ou classe.
 
- **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em uma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
+- **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em u- ma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
