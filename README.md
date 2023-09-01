@@ -48,4 +48,10 @@ Criar nomes significativos é essencial para a clareza do código:
 
 - **Evite Codificação**: Evite inserir detalhes técnicos nos nomes, como Hungarian Notation.
 
+- **Evite Nomes com uma Única Letra, Salve as Exceções i, j, k**: Evitar nomes de variáveis com uma única letra, a menos que sejam usados em contextos específicos como contadores em laços (`i`, `j`, `k`).
 
+- **Nomes de Classes não Devem Ser Verbos**: Os nomes de classes devem indicar substantivos ou objetos, não ações ou verbos.
+
+- **Use Nomes Técnicos e Específicos**: Quando apropriado, use nomes técnicos e específicos, como nomes de algoritmos ou termos matemáticos, para melhor representar o propósito da variável, função ou classe.
+
+ **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em uma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
