@@ -54,4 +54,22 @@ Criar nomes significativos é essencial para a clareza do código:
 
 - **Use Nomes Técnicos e Específicos**: Quando apropriado, use nomes técnicos e específicos, como nomes de algoritmos ou termos matemáticos, para melhor representar o propósito da variável, função ou classe.
 
-- **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em u- ma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
+-
+
+ **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em uma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
+
+# Capítulo 3: Funções
+
+Funções são componentes essenciais no desenvolvimento de código. Elas têm o propósito de adicionar funcionalidade ao programa. Aqui estão algumas dicas para escrever boas funções:
+
+- **Pequenas e Concisas**: Procure construir funções pequenas, com até 20 linhas, sempre que possível. Isso torna as funções mais fáceis de entender e manter.
+
+- **Identação Adequada**: Limitar funções a uma ou duas linhas de identação torna o código mais compreensível.
+
+- **Blocos Simples**: Em estruturas condicionais como `if`, `else`, e laços como `while`, procure reduzir o bloco de código a uma única linha, preferencialmente chamando outra função.
+
+- **Uma Única Responsabilidade**: Funções devem fazer uma única coisa e fazer bem essa coisa. Evite criar funções com várias funcionalidades.
+
+- **Nomes Descritivos**: Use nomes descritivos para funções. Não tenha medo de usar nomes longos que especifiquem claramente o que a função faz.
+
+- **Evite Codificação**: Evite incluir detalhes técnicos nos nomes das funções.
