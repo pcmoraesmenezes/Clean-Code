@@ -60,7 +60,7 @@ Criar nomes significativos é essencial para a clareza do código:
 
 # Capítulo 3: Funções
 
-Funções são componentes essenciais no desenvolvimento de código. Elas têm o propósito de adicionar funcionalidade ao programa. Aqui estão algumas dicas para escrever boas funções:
+Funções são componentes essenciais no desenvolvimento de código. Elas têm o propósito de adicionar funcionalidade ao programa. Algumas dicas para construir boas funções:
 
 - **Pequenas e Concisas**: Procure construir funções pequenas, com até 20 linhas, sempre que possível. Isso torna as funções mais fáceis de entender e manter.
 
