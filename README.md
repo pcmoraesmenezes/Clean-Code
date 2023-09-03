@@ -54,7 +54,7 @@ Criar nomes significativos é essencial para a clareza do código:
 
 - **Use Nomes Técnicos e Específicos**: Quando apropriado, use nomes técnicos e específicos, como nomes de algoritmos ou termos matemáticos, para melhor representar o propósito da variável, função ou classe.
 
--
+
 
  **Quebre o Código em Pequenas Partes**: Evite definir todas as funcionalidades em uma única classe ou função. Divida o código em pequenas partes, tornando mais fácil para outros entenderem e manterem.
 
@@ -73,3 +73,8 @@ Funções são componentes essenciais no desenvolvimento de código. Elas têm o
 - **Nomes Descritivos**: Use nomes descritivos para funções. Não tenha medo de usar nomes longos que especifiquem claramente o que a função faz.
 
 - **Evite Codificação**: Evite incluir detalhes técnicos nos nomes das funções.
+  
+- **Argumentos**: O número ideal de argumentos em uma função é zero. Funções com até dois argumentos são toleráveis, mas evite funções com três ou mais argumentos, a menos que seja extremamente justificável.
+- **Evite verificações duplicadas dentro de funções**.
+- **Funções devem fazer ou algo ou responder algo, não ambos**.
+- **Prefira levantar exceções a mensagens de erro, indicando que o erro deve ser tratado imediatamente**.
