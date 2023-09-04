@@ -78,3 +78,6 @@ Funções são componentes essenciais no desenvolvimento de código. Elas têm o
 - **Evite verificações duplicadas dentro de funções**.
 - **Funções devem fazer ou algo ou responder algo, não ambos**.
 - **Prefira levantar exceções a mensagens de erro, indicando que o erro deve ser tratado imediatamente**.
+- **Djakstra:** Djakstra disse que uma das regras da programação estruturada que cada bloco com uma função deve ter uma entrada ou uma saída, o que quer dizer que uma função deve ter apenas um unico retorno, um laço de repetição não deve ter continue ou break e nunca deve ter um goto. Entretanto essas expressões são excelentes em casos de funções pequenas, salve a excessão do goto que deve ser usado somente em funções maiores.
+  ### Conclusão:
+ Portanto a partir de agora, quando for escrever funções coloque o seus pensamentos primeiro, isso vai gerar graneds funções, grandes blocos de identação varios laços de repetição, nomes sem sentido, mas a medida que você colocar a suas ideias, implemente todas as dicas vistas até agora e então terá uma função limpa.
