@@ -1,4 +1,7 @@
-# Princípios do 5S para Desenvolvimento de Código
+# Clean Code - Código Limpo
+### Anotações sobre o livro!
+
+## Princípios do 5S para Desenvolvimento de Código
 
 O método 5S é uma abordagem popular para melhorar a organização e eficiência no ambiente de trabalho. Esses princípios podem ser aplicados ao desenvolvimento de código para promover boas práticas e produzir um código mais limpo, legível e fácil de manter. Aqui estão os princípios do 5S adaptados para o contexto de desenvolvimento de software:
 
