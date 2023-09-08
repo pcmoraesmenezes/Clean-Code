@@ -81,3 +81,34 @@ Funções são componentes essenciais no desenvolvimento de código. Elas têm o
 - **Djakstra:** Djakstra disse que uma das regras da programação estruturada que cada bloco com uma função deve ter uma entrada ou uma saída, o que quer dizer que uma função deve ter apenas um unico retorno, um laço de repetição não deve ter continue ou break e nunca deve ter um goto. Entretanto essas expressões são excelentes em casos de funções pequenas, salve a excessão do goto que deve ser usado somente em funções maiores.
   ### Conclusão:
  Portanto a partir de agora, quando for escrever funções coloque o seus pensamentos primeiro, isso vai gerar graneds funções, grandes blocos de identação varios laços de repetição, nomes sem sentido, mas a medida que você colocar a suas ideias, implemente todas as dicas vistas até agora e então terá uma função limpa.
+
+
+## Capítulo 4: Comentários
+Comentários são sempre vistos como um fracasso no código. Eles são usados quando não conseguimos expressar claramente o que queremos em nosso código, e seu uso nunca é uma celebração. Em vez de adicionar comentários para explicar códigos confusos, a melhor abordagem é limpar o código. <Br>
+Às vezes, usamos comentários para explicar o que uma parte do código faz, como neste exemplo:
+```markdown
+
+
+
+```javascript
+// Verifique se o funcionário tem direito a benefícios completos
+
+if (employee.flags & hourly.flag) ...
+```
+
+Mas, na verdade, seria melhor usar uma função que explique o que está acontecendo:
+
+```javascript
+if (employee.isEligibleForFullBenefits())
+```
+
+Em casos que envolvem expressões regulares, comentários são úteis para explicar como a saída será formatada.
+
+Comentários claros também são úteis ao explicar comparações. Se você sentir a necessidade de escrever um comentário, dedique o tempo necessário para escrevê-lo bem.
+
+Evite comentários redundantes que explicam o que as linhas de código fazem quando as próprias linhas de código já são autoexplicativas.
+
+Comentários que explicam o nome de variáveis ou funções muitas vezes são usados para obscurecer o código, criando uma ilusão de clareza. No geral, esses tipos de comentários estão sendo usados para ofuscar algo e devem ser evitados.
+
+
+
