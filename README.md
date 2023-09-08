@@ -113,5 +113,17 @@ Evite comentários redundantes que explicam o que as linhas de código fazem qua
 
 Comentários que explicam o nome de variáveis ou funções muitas vezes são usados para obscurecer o código, criando uma ilusão de clareza. No geral, esses tipos de comentários estão sendo usados para ofuscar algo e devem ser evitados.
 
+Não utilize comentários quando você pode usar uma função ou variável com um nome explícito que elimine a necessidade do comentário.
+
+Se você está usando comentários para especificar o fim de uma estrutura de controle, como um loop ou uma declaração condicional em uma função longa, é aconselhável repensar a estrutura da função. Como discutido no Capítulo 3, funções devem ser curtas e fazer uma única coisa. Comentários para marcar o fim de estruturas vão contra esse princípio.
+
+Um bom princípio é que um comentário nunca deve precisar de uma explicação adicional. Se um comentário requer uma explicação, ele está indicando que algo está errado na clareza do código.
+
+Funções curtas geralmente não precisam de muita descrição. Escolher um nome apropriado para a função é mais eficaz do que adicionar comentários para explicar o que a função faz.
+
+Comentários no "cabeçalho", ou seja, acima de funções ou classes, podem ser úteis para especificar o que elas fazem ou fornecer informações de alto nível sobre sua finalidade.
+
+Comentários que explicam a lógica do algoritmo ou algoritmos utilizados são válidos e podem melhorar a compreensão do código.
+
 
 
