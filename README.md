@@ -126,4 +126,22 @@ Comentários no "cabeçalho", ou seja, acima de funções ou classes, podem ser 
 Comentários que explicam a lógica do algoritmo ou algoritmos utilizados são válidos e podem melhorar a compreensão do código.
 
 
+## Capítulo 5 - Formatação
 
+A formatação adequada do código é essencial para a manutenção e legibilidade do projeto.
+
+- Em ambientes de trabalho em equipe, é fundamental que a equipe concorde em seguir um padrão de formatação para facilitar a leitura e a navegação pelo código.
+
+- Códigos passam por mudanças constantes ao longo do tempo, muitas vezes alterando completamente a lógica subjacente, mas a formatação e estilo de escrita do código permanecem consistentes. Manter uma formatação consistente facilita futuras modificações e melhorias no código.
+
+- Não há regra rígida quanto ao tamanho de um arquivo, mas a maioria das empresas mantém arquivos com cerca de 40-60 linhas. Alguns arquivos podem ser mais longos, chegando a 200, 400 ou até 1000 linhas, mas a regra geral é que arquivos menores tendem a ser mais fáceis de entender.
+
+- Tamanho de cada linha horizontalmente falando segue a mesma ideia, entretanto o ideal para o python é manter até 80 caracteres
+
+- O uso de "linhas em branco" para separar partes do código é uma estratégia útil. Por exemplo, adicionar uma linha em branco após a inclusão de um pacote cria clareza na leitura.
+
+- Declare variáveis o mais próximo possível de seu uso no código. Variáveis locais devem ser declaradas no início de cada classe ou função, e as variáveis usadas em laços de repetição devem ser declaradas fora do loop.
+
+- Funções que chamam outras funções devem estar próximas umas das outras para facilitar a compreensão do fluxo de execução.
+
+Manter essas práticas de formatação pode tornar o código mais legível, facilitando a colaboração em equipe e futuras manutenções do projeto.
