@@ -145,3 +145,14 @@ A formatação adequada do código é essencial para a manutenção e legibilida
 - Funções que chamam outras funções devem estar próximas umas das outras para facilitar a compreensão do fluxo de execução.
 
 Manter essas práticas de formatação pode tornar o código mais legível, facilitando a colaboração em equipe e futuras manutenções do projeto.
+
+
+## Capítulo 6 - Objetos e Estrutura de Dados
+
+Neste capítulo, discutiremos a diferença entre objetos e estruturas de dados e como eles se relacionam na programação.
+
+- **Objetos vs. Estrutura de Dados**: Objetos e estruturas de dados representam abordagens diferentes para projetar programas. Objetos escondem os dados por trás de abstrações e expõem funções que operam nesses dados. Em contraste, as estruturas de dados expõem os dados diretamente e geralmente não possuem funções significativas associadas.
+
+- **Complementaridade**: Objetos e estruturas de dados são complementares, cada um com seus pontos fortes e fracos. Em uma linguagem procedural, é fácil adicionar novas funções sem alterar as estruturas de dados existentes. Por outro lado, na programação orientada a objetos, é fácil adicionar novas classes sem alterar as funções existentes. No entanto, o inverso também é verdadeiro: na programação procedural, adicionar novas estruturas de dados pode ser complicado, uma vez que todas as funções que as manipulam precisam mudar. Da mesma forma, na programação orientada a objetos, adicionar novas funções pode ser difícil, pois todas as classes afetadas precisam ser modificadas.
+
+- **Lei de Demeter**: A Lei de Demeter, também conhecida como Princípio de Menos Conhecimento, estipula que um módulo (ou objeto) não deve saber detalhes internos sobre os objetos que manipula. Em outras palavras, um objeto deve interagir apenas com seus vizinhos imediatos e não com objetos que esses vizinhos manipulam. Isso promove um baixo acoplamento e torna o código mais fácil de entender e manter.
