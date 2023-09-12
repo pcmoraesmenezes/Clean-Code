@@ -156,3 +156,19 @@ Neste capítulo, discutiremos a diferença entre objetos e estruturas de dados e
 - **Complementaridade**: Objetos e estruturas de dados são complementares, cada um com seus pontos fortes e fracos. Em uma linguagem procedural, é fácil adicionar novas funções sem alterar as estruturas de dados existentes. Por outro lado, na programação orientada a objetos, é fácil adicionar novas classes sem alterar as funções existentes. No entanto, o inverso também é verdadeiro: na programação procedural, adicionar novas estruturas de dados pode ser complicado, uma vez que todas as funções que as manipulam precisam mudar. Da mesma forma, na programação orientada a objetos, adicionar novas funções pode ser difícil, pois todas as classes afetadas precisam ser modificadas.
 
 - **Lei de Demeter**: A Lei de Demeter, também conhecida como Princípio de Menos Conhecimento, estipula que um módulo (ou objeto) não deve saber detalhes internos sobre os objetos que manipula. Em outras palavras, um objeto deve interagir apenas com seus vizinhos imediatos e não com objetos que esses vizinhos manipulam. Isso promove um baixo acoplamento e torna o código mais fácil de entender e manter.
+
+
+
+## Capítulo 7 - Manipulação de Erros
+
+Neste capítulo, é discutido as melhores práticas para lidar com erros e exceções no código.
+
+- **Importância da Manipulação de Erros**: A manipulação de erros é uma parte fundamental da programação, pois permite que um programa lide com situações excepcionais e inesperadas de forma adequada. No entanto, é importante garantir que a manipulação de erros não obscureça a lógica principal do código.
+
+- **Use Exceções em Vez de Retornos de Códigos**: Em muitas linguagens de programação, é comum usar códigos de retorno especiais para indicar erros ou situações excepcionais. No entanto, essa abordagem pode tornar o código confuso e propenso a erros. Em vez disso, é recomendável usar exceções (ou equivalentes na linguagem) para lidar com erros. As exceções fornecem um mecanismo mais robusto e estruturado para lidar com situações excepcionais.
+
+- **Evite Retornar Null**: Retornar `null` para indicar um erro ou valor ausente pode levar a bugs difíceis de rastrear. É preferível usar exceções ou outras abordagens para lidar com erros, em vez de retornar `null`.
+
+- **Não Permita a Passagem de Null**: Além de não retornar `null`, também é importante não permitir a passagem de valores `null` como argumentos para funções ou métodos. Isso pode ser alcançado por meio de verificações apropriadas ou pelo uso de tipos que não aceitam `null`, se disponíveis na linguagem.
+
+Lidar com erros de maneira eficaz é essencial para criar código confiável e robusto. Usar exceções e evitar o uso de `null` pode contribuir para um código mais claro e menos propenso a erros.
