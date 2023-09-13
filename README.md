@@ -172,3 +172,19 @@ Neste capítulo, é discutido as melhores práticas para lidar com erros e exce�
 - **Não Permita a Passagem de Null**: Além de não retornar `null`, também é importante não permitir a passagem de valores `null` como argumentos para funções ou métodos. Isso pode ser alcançado por meio de verificações apropriadas ou pelo uso de tipos que não aceitam `null`, se disponíveis na linguagem.
 
 Lidar com erros de maneira eficaz é essencial para criar código confiável e robusto. Usar exceções e evitar o uso de `null` pode contribuir para um código mais claro e menos propenso a erros.
+
+## Capítulo 8 - Limites
+
+Neste capítulo, é explorado a importância de entender os limites de uma aplicação, especialmente quando se trata de usar código de terceiros, bibliotecas ou frameworks.
+
+- **Compreender as Capacidades e Limites**: Ao usar componentes de terceiros, como bibliotecas ou frameworks, é essencial compreender suas funcionalidades e limitações. Isso significa que você deve estudar a documentação e entender claramente o que a ferramenta pode e não pode fazer.
+
+- **Chamadas Encadeadas e Dependências**: Em muitos casos, ao usar código de terceiros, você pode se encontrar em situações onde uma chamada leva a outra e, eventualmente, a uma cadeia de dependências. É importante entender como essas chamadas funcionam e quais são suas implicações em termos de desempenho e comportamento.
+
+- **Learning Tests**: Jim Newkirk cunhou o termo "learning tests" para descrever o processo de escrever testes não apenas para verificar o comportamento esperado de um código, mas também para aprender sobre as funcionalidades e limitações desse código. Esses testes são uma ferramenta valiosa para explorar e documentar como usar código de terceiros de maneira eficaz.
+
+- **Testar com Dados Reais**: Além de simplesmente verificar o funcionamento de uma biblioteca ou framework, é importante testá-los em cenários do mundo real que refletem o uso real que você fará deles em seu projeto. Isso pode revelar problemas ou limitações que não seriam evidentes em testes mais simples.
+
+- **Monitorar Atualizações**: À medida que bibliotecas e frameworks evoluem, é importante monitorar suas atualizações. Isso pode incluir correções de bugs, melhorias de desempenho e novos recursos. Ficar atualizado com as versões mais recentes pode ajudar a manter seu projeto seguro e eficiente.
+
+Compreender os limites e as capacidades das ferramentas que você utiliza é essencial para o desenvolvimento de software eficaz. Usar "learning tests" e testar com dados do mundo real são estratégias úteis para adquirir esse entendimento e garantir ao máximo as bibliotecas e frameworks que escolheu.
