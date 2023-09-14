@@ -188,3 +188,35 @@ Neste capítulo, é explorado a importância de entender os limites de uma aplic
 - **Monitorar Atualizações**: À medida que bibliotecas e frameworks evoluem, é importante monitorar suas atualizações. Isso pode incluir correções de bugs, melhorias de desempenho e novos recursos. Ficar atualizado com as versões mais recentes pode ajudar a manter seu projeto seguro e eficiente.
 
 Compreender os limites e as capacidades das ferramentas que você utiliza é essencial para o desenvolvimento de software eficaz. Usar "learning tests" e testar com dados do mundo real são estratégias úteis para adquirir esse entendimento e garantir ao máximo as bibliotecas e frameworks que escolheu.
+
+## Capítulo 9 - Testes Unitários
+
+Neste capítulo, explora-se os princípios e práticas dos Testes Unitários, uma parte fundamental do desenvolvimento de software de qualidade. O autor apresenta as "Três Leis do Desenvolvimento Guiado por Testes" como diretrizes essenciais:
+
+1. **Não Escreva Código de Produção sem um Teste Unitário Falhando Antes**: Antes de começar a escrever o código de produção, escreva um teste unitário que deve falhar, mostrando que a funcionalidade que você ainda não implementou não está funcionando.
+
+2. **Não Escreva Mais Testes Unitários do que o Necessário para Falhar**: Escreva apenas o teste unitário suficiente para mostrar que o código de produção está ausente ou não funcionando. Escrever testes excessivos pode ser contraproducente.
+
+3. **Não Escreva Mais Código de Produção do que o Necessário para Passar no Teste Atualmente Falhando**: Concentre-se em escrever apenas o código de produção necessário para fazer o teste unitário atual passar. Não adicione funcionalidades não relacionadas ao teste atual.
+
+### Características dos Testes Limpos:
+
+- **Clareza**: Os testes devem ser claros e fáceis de entender. Um desenvolvedor deve ser capaz de ler um teste e entender o que está sendo testado e como.
+
+- **Simplicidade**: Mantenha os testes simples. Eles devem expressar o máximo com o mínimo de complexidade.
+
+- **Um Assert por Teste**: Um teste deve verificar uma coisa específica. Evite incluir múltiplas verificações em um único teste.
+
+### Princípios F.I.R.S.T para Testes:
+
+- **Rápido (Fast)**: Os testes devem ser rápidos para executar. Isso permite que você os execute frequentemente, garantindo que você obtenha feedback rápido sobre a integridade do código.
+
+- **Independentes (Independent)**: Os testes não devem depender uns dos outros. Cada teste deve poder ser executado independentemente, sem que o resultado de um afete o resultado de outro.
+
+- **Repetível (Repeatable)**: Os testes devem ser repetíveis em qualquer ambiente. Eles não devem depender de configurações específicas ou recursos externos.
+
+- **Autovalidação (Self-Validating)**: Os testes devem retornar um resultado claro e simples, geralmente um valor booleano, indicando se o teste passou ou falhou. Evite a necessidade de interpretação manual dos resultados.
+
+- **Pontual (Timely)**: Escreva testes logo antes de escrever o código de produção correspondente. Isso mantém os testes relevantes e garantidos.
+
+Manter testes limpos é essencial para garantir a confiabilidade do seu código de produção. Testes sujos podem levar a códigos sujos e problemas futuros. Portanto, aderir a esses princípios e práticas de Testes Unitários é crucial para o desenvolvimento de software robusto e de alta qualidade.
