@@ -220,3 +220,21 @@ Neste capítulo, explora-se os princípios e práticas dos Testes Unitários, um
 - **Pontual (Timely)**: Escreva testes logo antes de escrever o código de produção correspondente. Isso mantém os testes relevantes e garantidos.
 
 Manter testes limpos é essencial para garantir a confiabilidade do seu código de produção. Testes sujos podem levar a códigos sujos e problemas futuros. Portanto, aderir a esses princípios e práticas de Testes Unitários é crucial para o desenvolvimento de software robusto e de alta qualidade.
+
+## Capítulo 10 - Classes
+
+Neste capítulo, explora-se os princípios relacionados à criação e organização de classes no desenvolvimento de software. Ideias chave:
+
+### **Organização**
+
+Manter as classes bem organizadas é fundamental para o desenvolvimento de código limpo e de fácil manutenção. A primeira regra para determinar o tamanho de uma classe é o seu nome. Uma classe deve ter um nome que denote claramente sua responsabilidade no sistema. Isso ajuda a garantir que as classes tenham uma única responsabilidade, tornando o código mais compreensível e modular.
+
+### **Princípio da Responsabilidade Única (Single Responsibility Principle)**
+
+Este princípio afirma que uma classe ou módulo deve ter apenas uma razão para mudar. Isso significa que uma classe deve ter uma única responsabilidade no sistema e não deve ser sobrecarregada com funcionalidades ou responsabilidades adicionais. Isso torna as classes mais coesas e facilita a manutenção, pois as mudanças relacionadas a uma responsabilidade específica afetam apenas uma classe.
+
+### **Coerência (Coesão)**
+
+Coesão é um conceito que se relaciona com o quão bem os métodos de uma classe estão agrupados de acordo com uma única responsabilidade. Métodos de uma classe devem manipular o máximo possível de variáveis de instância e ter o mínimo de variáveis de instância. Isso mantém o código coeso, facilitando a compreensão e manutenção.
+
+Manter classes pequenas, coesas e com uma única responsabilidade é fundamental para criar um código limpo e de fácil manutenção. Isso permite que o desenvolvedor  concentre em partes específicas do sistema de cada vez e evita a complexidade desnecessária.
