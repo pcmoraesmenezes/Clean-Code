@@ -238,3 +238,18 @@ Este princípio afirma que uma classe ou módulo deve ter apenas uma razão para
 Coesão é um conceito que se relaciona com o quão bem os métodos de uma classe estão agrupados de acordo com uma única responsabilidade. Métodos de uma classe devem manipular o máximo possível de variáveis de instância e ter o mínimo de variáveis de instância. Isso mantém o código coeso, facilitando a compreensão e manutenção.
 
 Manter classes pequenas, coesas e com uma única responsabilidade é fundamental para criar um código limpo e de fácil manutenção. Isso permite que o desenvolvedor  concentre em partes específicas do sistema de cada vez e evita a complexidade desnecessária.
+
+
+## Capítulo 11 - Sistemas
+
+Neste capítulo, explora-se os princípios relacionados à organização e separação de sistemas de software. Aborda-se as seguintes ideias-chave:
+
+### **Separação do Processo Inicial**
+
+Os sistemas de software devem ser projetados e organizados de maneira a separar o processo inicial, quando a aplicação é iniciada, da lógica principal do sistema. Isso significa que a inicialização do sistema, configuração e dependências devem ser tratadas separadamente da execução da funcionalidade principal da aplicação.
+
+### **Utilização do Método `main`**
+
+Uma das formas de separar as construções em sistemas é por meio do uso do método `main`. Em linguagens como Python, isso pode ser feito com a condição `if __name__ == "__main__":`. Essa abordagem permite que a lógica de inicialização e configuração seja colocada no bloco de código sob essa condição, enquanto as funções e a lógica principal do sistema podem ser definidas separadamente. Isso ajuda a manter um fluxo claro no código e a evitar dependências indesejadas.
+
+Manter sistemas organizados e separados de forma adequada é fundamental para facilitar o desenvolvimento, manutenção e escalabilidade das aplicações. Isso permite que diferentes partes do sistema sejam desenvolvidas e testadas de forma independente, facilitando a colaboração em projetos de software.
