@@ -253,3 +253,29 @@ Os sistemas de software devem ser projetados e organizados de maneira a separar 
 Uma das formas de separar as construções em sistemas é por meio do uso do método `main`. Em linguagens como Python, isso pode ser feito com a condição `if __name__ == "__main__":`. Essa abordagem permite que a lógica de inicialização e configuração seja colocada no bloco de código sob essa condição, enquanto as funções e a lógica principal do sistema podem ser definidas separadamente. Isso ajuda a manter um fluxo claro no código e a evitar dependências indesejadas.
 
 Manter sistemas organizados e separados de forma adequada é fundamental para facilitar o desenvolvimento, manutenção e escalabilidade das aplicações. Isso permite que diferentes partes do sistema sejam desenvolvidas e testadas de forma independente, facilitando a colaboração em projetos de software.
+
+## Capítulo 12 - Emergência
+
+Neste capítulo, Kent Beck apresenta quatro regras do design simples que são fundamentais para o desenvolvimento de software eficaz:
+
+### **Regra 1: Rode Todos os Testes**
+
+Certificar-se de que todos os testes estão passando é crucial. Se não existir uma maneira de verificar se os testes cobrem todas as necessidades, o código é questionável. Escrever testes é uma prática que contribui para tornar o código mais coeso e limpo, pois exige que a lógica do programa seja testável e organizada.
+
+### **Regra 2: Não Conte Duplicação**
+
+Duplicação de código é um indicativo de complexidade desnecessária. Evitar duplicação é essencial para manter o código limpo. Sempre que encontrar duplicação, busque maneiras de refatorar e eliminar essa redundância.
+
+### **Regra 3: Expresse a Intenção do Programador**
+
+Clareza é fundamental. Quanto mais claro o autor do código consegue expressar suas intenções, menos tempo outras pessoas gastarão tentando entender o código. Escolher nomes significativos para variáveis, funções e classes é uma maneira de garantir que o código seja autodescritivo e não surpreenda os leitores.
+
+### **Regra 4: Minimize o Número de Classes e Métodos**
+
+Embora seja importante manter o código coeso, isso não significa criar um grande número de classes e métodos. Minimizar a quantidade de classes e métodos no projeto é uma abordagem que ajuda a evitar a complexidade desnecessária e torna o código mais fácil de entender e manter.
+
+### **Refatoração**
+
+A refatoração é um processo fundamental após a escrita de código. Envolve a revisão das linhas de código inseridas, a busca por maneiras de aumentar a coesão, eliminar duplicações, tornar as intenções mais claras e, ao mesmo tempo, minimizar a quantidade de classes e métodos. A refatoração é uma prática que contribui para manter o código limpo e de alta qualidade, facilitando a manutenção e o desenvolvimento contínuo do software.
+
+Essas regras e práticas do design simples são essenciais para criar e manter software eficaz, coeso e de alta qualidade. Elas são uma parte fundamental da filosofia de desenvolvimento orientado a testes (TDD) e promovem a criação de código limpo e robusto.
