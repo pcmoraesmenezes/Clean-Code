@@ -279,3 +279,41 @@ Embora seja importante manter o código coeso, isso não significa criar um gran
 A refatoração é um processo fundamental após a escrita de código. Envolve a revisão das linhas de código inseridas, a busca por maneiras de aumentar a coesão, eliminar duplicações, tornar as intenções mais claras e, ao mesmo tempo, minimizar a quantidade de classes e métodos. A refatoração é uma prática que contribui para manter o código limpo e de alta qualidade, facilitando a manutenção e o desenvolvimento contínuo do software.
 
 Essas regras e práticas do design simples são essenciais para criar e manter software eficaz, coeso e de alta qualidade. Elas são uma parte fundamental da filosofia de desenvolvimento orientado a testes (TDD) e promovem a criação de código limpo e robusto.
+
+
+## Capítulo 13 - Simultaneidade
+
+A simultaneidade pode melhorar o desempenho de um sistema, especialmente quando há tempos de espera significativos que podem ser divididos em várias threads ou processos.
+
+No entanto, a simultaneidade também traz desafios de design que devem ser tratados adequadamente.
+
+### Princípios e Técnicas para Lidar com a Simultaneidade
+
+1. **Single Responsibility Principle**: Uma classe, método ou componente deve ter apenas uma única razão para mudar. Mantenha o código relacionado à simultaneidade separado, tornando-o mais gerenciável e isolado.
+
+2. **Limitar o Escopo de Dados**: Limite o acesso a dados compartilhados para evitar resultados indesejáveis causados pela execução concorrente.
+
+3. **Usar Cópia de Dados**: Em vez de compartilhar dados diretamente entre threads, considere o uso de cópias de dados para cada thread. Isso pode reduzir problemas de simultaneidade.
+
+4. **Threads Independentes**: Tente projetar suas threads para serem independentes o máximo possível, evitando dependências complexas entre elas.
+
+5. **Conheça as Limitações das Bibliotecas de Thread**: Se você está usando bibliotecas de thread, como pthread em Python, é fundamental entender suas limitações e capacidades para lidar com a simultaneidade de forma eficaz.
+
+
+
+## Tabela de Termos
+
+| Nome                    | Descrição                                                                                           |
+|-------------------------|-----------------------------------------------------------------------------------------------------|
+| Recursos Vinculados     | Recursos de um tamanho fixo ou números usados em ambientes concorrentes. Exemplos: conexões de banco de dados e tamanho fixo para leitura e escrita de buffers. |
+| Exclusão Mútua          | Apenas uma thread pode acessar dado compartilhado ou recurso por vez.                                 |
+| Starvation              | Uma thread ou grupo de threads são proibidos pelo processo para o uso excessivo por um longo período de tempo. |
+| Deadlock                | Duas ou mais threads esperando uma pela outra pelo término. Uma thread tem o recurso necessário para a execução da outra. |
+| Livelock                | Um estado em que duas ou mais threads estão ativas, mas não fazem progresso real porque continuam respondendo às ações umas das outras. |
+
+
+### O Problema do Jantar dos Filósofos
+
+O "Problema do Jantar dos Filósofos" é um exemplo clássico que ilustra os desafios da simultaneidade em sistemas concorrentes. Ele envolve recursos compartilhados (os garfos) e é comum em contextos empresariais. É essencial aprender algoritmos e técnicas para resolver esse tipo de problema de maneira eficiente.
+
+Lidar com a simultaneidade é fundamental para evitar problemas como condições de corrida e garantir que seu sistema funcione de maneira confiável e eficaz em ambientes concorrentes.
