@@ -319,3 +319,19 @@ O "Problema do Jantar dos Filósofos" é um exemplo clássico que ilustra os des
 Mais informações sobre Threading e jantar dos filosofos disponiveis nesse repostiório: [Threading](https://github.com/pcmoraesmenezes/Threads)
 
 Lidar com a simultaneidade é fundamental para evitar problemas como condições de corrida e garantir que seu sistema funcione de maneira confiável e eficaz em ambientes concorrentes.
+
+1. **Mantenha Seções Críticas Pequenas**: Bloqueios (locks) são caros em termos de desempenho, portanto, é uma boa prática manter as seções críticas, ou seja, as partes do código em que você controla o acesso concorrente, tão curtas quanto possível. Isso ajuda a minimizar o tempo em que as threads estão bloqueadas e melhora a eficiência.
+
+2. **Complexidade da Programação Concorrente**: A programação concorrente pode ser complexa e propensa a bugs difíceis de depurar, como condições de corrida e deadlocks. Estudar algoritmos e técnicas de programação concorrente é crucial para lidar com esses desafios de maneira eficaz.
+
+3. **Não Ignore Sistemas Falhos**: Ao lidar com sistemas concorrentes, é importante considerar que falhas podem ocorrer. É fundamental projetar seu sistema com a resiliência em mente, implementando tratamento adequado de erros e mecanismos de recuperação.
+
+4. **Teste sem Threads Primeiro**: Antes de introduzir threads em seu código, certifique-se de que a lógica do programa esteja funcionando corretamente em um ambiente não concorrente. Isso facilitará a identificação de problemas de concorrência ao introduzir threads.
+
+5. **Threads Ajustáveis**: Projete suas threads para serem configuráveis, permitindo que você ajuste o número de threads em tempo de execução com base nos recursos disponíveis ou na carga de trabalho. Isso pode melhorar a eficiência e a escalabilidade do seu sistema.
+
+6. **Use Mais Threads do que Processadores**: Em sistemas com vários núcleos de processador, pode ser benéfico ter mais threads do que núcleos de CPU para aproveitar ao máximo o hardware. No entanto, a alocação excessiva de threads pode levar a gargalos de recursos, portanto, é importante encontrar um equilíbrio.
+
+7. **Compatibilidade entre Sistemas Operacionais**: Diferentes sistemas operacionais podem ter implementações diferentes de threads e comportamentos de concorrência. Testar seu código em diferentes sistemas operacionais é importante para garantir que ele seja portável e funcione corretamente em diferentes ambientes.
+
+Essas são diretrizes importantes ao lidar com programação concorrente e threads. A programação concorrente pode ser poderosa, mas também traz desafios únicos que exigem atenção cuidadosa para garantir que seu sistema seja eficiente e confiável.
