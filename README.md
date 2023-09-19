@@ -316,6 +316,6 @@ No entanto, a simultaneidade também traz desafios de design que devem ser trata
 
 O "Problema do Jantar dos Filósofos" é um exemplo clássico que ilustra os desafios da simultaneidade em sistemas concorrentes. Ele envolve recursos compartilhados (os garfos) e é comum em contextos empresariais. É essencial aprender algoritmos e técnicas para resolver esse tipo de problema de maneira eficiente.
 
-Mais informações sobre Threading e jantar dos filosofos disponiveis nesse repostiório: [Threading]()
+Mais informações sobre Threading e jantar dos filosofos disponiveis nesse repostiório: [Threading](https://github.com/pcmoraesmenezes/Threads)
 
 Lidar com a simultaneidade é fundamental para evitar problemas como condições de corrida e garantir que seu sistema funcione de maneira confiável e eficaz em ambientes concorrentes.
