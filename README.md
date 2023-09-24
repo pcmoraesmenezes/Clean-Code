@@ -381,3 +381,68 @@ O TDD, ou Desenvolvimento Orientado a Testes, desempenha um papel essencial no p
 6. **Melhoria Gradual**: O TDD permite que você melhore gradualmente o código. À medida que novos requisitos surgem ou você identifica áreas de melhoria, você pode escrever testes e, em seguida, refinar o código para atender a esses testes.
 
 Portanto, o TDD e o refinamento sucessivo andam de mãos dadas para criar código limpo e confiável. O TDD ajuda a definir a direção do desenvolvimento e a garantir que a funcionalidade seja mantida, enquanto o refinamento sucessivo permite que você aprimore gradualmente o código, tornando-o mais limpo e fácil de manter.
+
+
+## Capítulo 15: Heurísticas e cheiros de código
+
+Neste capítulo, Kent Beck apresenta uma série de heurísticas e cheiros de código que podem ser usados para identificar problemas e melhorar a qualidade do código.
+
+### Comentarios:
+
+- **Comentários Informativos**: Comentários que explicam o que o código faz. Exemplo: `// Incrementa i`.
+
+- **Comentários Redundantes**: Comentários que apenas repetem o que o código já diz. Exemplo: `i++ // incrementa i`.
+
+- **Comentários Desnecessários**: Comentários que não agregam valor ao código. Exemplo: `// Inicia o loop`.
+
+- **Comentários de Fechamento**: Comentários que fecham uma estrutura de controle. Exemplo: `} // fim do loop`.
+
+- **Comentários de Funções**: Comentários que explicam o que uma função faz. Exemplo: `// Função que retorna o nome do usuário`.
+
+- **Comentários de Variáveis**: Comentários que explicam o que uma variável faz. Exemplo: `// Variável que armazena o nome do usuário`.
+
+- **Comentários de Objetos**: Comentários que explicam o que um objeto faz. Exemplo: `// Objeto que armazena o nome do usuário`.
+
+- **Comentarios fora de codigo**: Comentários que estão fora do código. Exemplo: `// TODO: Implementar a função`.
+
+Comentarios devem dizer o que o código não diz, não devem ser redundantes, desnecessários, de fechamento, de funções, de variáveis ou de objetos.
+
+### Ambiente:
+
+- **Builds Lentos**: Builds que demoram muito para serem executados.
+
+- **Builds Quebrados**: Builds que não passam nos testes.
+
+- **Executar Todos os Testes**: Executar todos os testes antes de enviar o código para o repositório.
+
+## Funções:
+
+- **Funções Grandes**: Funções com muitas linhas de código.
+
+- **Funções com Muitos Argumentos**: Funções com muitos argumentos.
+
+- **Funções com Muitos Parâmetros**: Funções com muitos parâmetros.
+
+- **Funções com Muitos Efeitos Colaterais**: Funções que alteram muitas variáveis de instância.
+
+## Geral:
+
+- **Código Duplicado**: Código que se repete.
+
+- **Código Longo**: Código com muitas linhas.
+
+- **Código Morto**: Código que não é mais usado.
+
+- **Código Sujo**: Código que não segue as boas práticas de codificação.
+
+- **Código com Muitos Comentários**: Código com muitos comentários.
+
+- **Código com Muitos Níveis de Indentação**: Código com muitos níveis de indentação.
+
+- **Código com Muitos Níveis de Aninhamento**: Código com muitos níveis de aninhamento.
+
+- **Muitas linguagens em um arquivo**: Arquivos que contêm mais de uma linguagem.
+
+- **Muitas Linhas Verticais**: Arquivos com muitas linhas verticais.
+
+- **Proximidade**: Variaveis, metodos, instancais devem estar o mais proximo possivel de onde são usadas. 
